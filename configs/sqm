@@ -1,0 +1,12 @@
+
+config queue
+	option enabled '1'
+	option interface 'br-guest'
+	option download '5000'
+	option upload '2000'
+	option debug_logging '0'
+	option verbosity '5'
+	option qdisc 'cake'
+	option script 'piece_of_cake.qos'
+	option linklayer 'none'
+
